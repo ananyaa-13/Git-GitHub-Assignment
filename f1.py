@@ -1,6 +1,14 @@
 num = int(input("Enter a number: "))
 
-if num % 2 == 0:
-    print("The number is Even")
+if num > 0:
+    print("Positive Number")
+elif num < 0:
+    print("Negative Number")
 else:
-    print("The number is Odd")
+    print("Zero")
+
+if num != 0:
+    if num % 2 == 0:
+        print("Even Number")
+    else:
+        print("Odd Number")
